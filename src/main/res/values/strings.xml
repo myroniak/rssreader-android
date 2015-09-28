@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RSS Reader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="loading">Loading...</string>
+    <string name="titleName">RSS reader for CBCNEWS</string>
+    <string name="noIC">No internet connection!</string>
+</resources>
