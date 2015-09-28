@@ -27,7 +27,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         list = (ListView) findViewById(R.id.listView);
-        new MyAsyncTask(MainActivity.this, list).execute(URL);
         cm = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         networkInfo = cm.getActiveNetworkInfo();
 
